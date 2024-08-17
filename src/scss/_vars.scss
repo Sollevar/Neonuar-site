@@ -1,0 +1,13 @@
+// Colors
+:root {
+    --ermil-font: "Ermilovbold", sans-serif;
+    --gothic-font: "DelaGothicOne", sans-serif;
+    --black-color: #000;
+    --white-color: #fff;
+    --accent-color :#ff3944;
+    --gray-color : #858585;
+    --transparent-color: #d9d9d9;
+    --content-width: 1370px;
+    --container-offset: 15px;
+    --container: calc(var(--content-width) + (var(--container-offset) * 2));
+}

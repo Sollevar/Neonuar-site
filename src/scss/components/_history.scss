@@ -1,0 +1,65 @@
+.history {
+    position: relative;
+    margin-top: -25px;
+
+    &__content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__logo {
+        position: absolute;
+        top: 18%;
+        left: 3%;
+        width: 65px;
+        height: 65px;
+    }
+
+    &__hidden{
+        display: none;
+    }
+
+    &__info {
+        padding-top: 102px;
+        padding-bottom: 102px;
+        max-width: 718px;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 6px;
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 47px;
+        color: var(--white-color);
+    }
+
+    &__year {
+        margin-bottom: 20px;
+        display: block;
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--white-color);
+    }
+
+    &__descr {
+        margin: 0;
+        margin-bottom: 70px;
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 135%;
+        text-transform: uppercase;
+        color: var(--white-color);
+    }
+
+    &__characters {
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 145%;
+        color: var(--white-color);
+    }
+}

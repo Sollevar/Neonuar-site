@@ -1,0 +1,103 @@
+.statistics {
+    padding: 67px 0px 64px 0px;
+    background-color: var(--black-color);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 41px;
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 47px;
+        color: var(--white-color);
+        text-transform: uppercase;
+    }
+
+    &__info {
+        position: relative;
+        align-self: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 121px;
+    }
+
+    &__list {
+        margin-bottom: 62px;
+        display: flex;
+        flex-direction: column;
+
+        li {
+            display: flex;
+
+            .item__name {
+                font-family: var(--ermil-font);
+                font-weight: 700;
+                font-size: 20px;
+                color: var(--white-color);
+            }
+
+            .item__author {
+                margin-right: auto;
+                font-family: var(--ermil-font);
+                font-weight: 700;
+                font-size: 20px;
+                color: var(--accent-color);
+            }
+
+            .item__views {
+                font-family: var(--ermil-font);
+                font-weight: 700;
+                font-size: 20px;
+                color: var(--white-color);
+                align-self: flex-end;
+            }
+        }
+
+        .statistics__item:not(:last-child) {
+            margin-bottom: 45px;
+        }
+
+        .statistics__name {
+            align-self: center;
+        }
+    }
+
+    &__line {
+        position: absolute;
+        width: 226px;
+        height: 2px;
+        background-color: var(--white-color);
+        transform: rotate(-90deg)
+    }
+
+    &__line--1 {
+        top: 115px;
+        left: 175px;
+    }
+
+    &__line--2 {
+        top: 115px;
+        left: 500px;
+    }
+
+    &__line--3 {
+        top: 115px;
+        left: 845px;
+    }
+
+    &__total {
+        align-self: center;
+        font-family: var(--ermil-font);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--white-color);
+
+        span{
+            color: var(--accent-color);
+        }
+    }
+}

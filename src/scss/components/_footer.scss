@@ -1,0 +1,81 @@
+.footer {
+    padding: 125px 0;
+    background-color: var(--black-color);
+
+    &__container {
+        position: relative;
+        max-width: 1113px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        margin-bottom: 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__year {
+        margin-right: 34px;
+        font-family: var(--gothic-font);
+        font-weight: 400;
+        font-size: 47px;
+        color: var(--accent-color);
+        text-shadow: var(--accent-color) 1px 0 30px;
+    }
+
+    &__name {
+        font-family: var(--gothic-font);
+        font-weight: 400;
+        font-size: 24px;
+        color: var(--accent-color);
+    }
+
+    &__descr {
+        margin: 0;
+        max-width: 636px;
+        font-family: var(--gothic-font);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        color: var(--accent-color);
+    }
+
+    &__copy {
+        position: relative;
+        width: 193px;
+        font-family: var(--gothic-font);
+        font-weight: 400;
+        font-size: 41px;
+        background-color: var(--accent-color);
+        color: var(--black-color);
+
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 193px;
+            height: 10px;
+            background-color: var(--black-color)
+        }
+    }
+
+    &__line-bottom {
+        position: absolute;
+        bottom: -40px;
+        width: 1113px;
+        height: 2px;
+        background-color: var(--accent-color);
+    }
+
+    &__line-delimiter{
+        position: absolute;
+        bottom: 50px;
+        left: 53.5%;
+        width: 180px;
+        height: 2px;
+        background-color: var(--accent-color);
+        transform: rotate(-90deg);
+    }
+}

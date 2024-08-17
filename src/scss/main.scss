@@ -1,0 +1,15 @@
+@import 'vars';
+@import 'fonts';
+@import 'mixins';
+@import 'breakpoints';
+// подключение шрифта
+@include font-face("Ermilovbold", "../fonts/Ermilovbold", 700, normal);
+@include font-face("DelaGothicOne", "../fonts/DelaGothicOne-Regular", 400, normal);
+@import 'setting';
+@import './components/hero';
+@import './components/history';
+@import './components/news';
+@import './components/statistics';
+@import './components/announcements';
+@import './components/footer';
+
